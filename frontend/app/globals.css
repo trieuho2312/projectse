@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+/* Ensure inputs are interactive */
+input, textarea, select {
+  pointer-events: auto !important;
+  user-select: text !important;
+  color: #111827 !important; /* Dark gray text color */
+}
+
+input::placeholder, textarea::placeholder {
+  color: #9ca3af !important; /* Light gray placeholder */
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  color: #111827 !important; /* Ensure text stays dark on focus */
+}

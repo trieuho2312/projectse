@@ -45,6 +45,11 @@ logs/
 # application-local.properties
 # application-dev.properties
 
+# Environment variables file
+.env
+.env.local
+.env.*.local
+
 # Temporary files
 *.tmp
 *.temp

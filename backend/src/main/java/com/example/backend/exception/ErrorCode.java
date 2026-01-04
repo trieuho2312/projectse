@@ -50,7 +50,10 @@ public enum ErrorCode {
     ADDRESS_NOT_FOUND(1801, "Address does not exist", HttpStatus.BAD_REQUEST),
 
     // Generic invalid value
-    INVALID_VALUE(1900, "Invalid value", HttpStatus.BAD_REQUEST);
+    INVALID_VALUE(1900, "Invalid value", HttpStatus.BAD_REQUEST),
+
+    // Payment
+    PAYMENT_FAILED(2000, "Payment failed", HttpStatus.BAD_REQUEST);
 
     private final int code;
     private final String message;
