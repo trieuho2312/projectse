@@ -1,0 +1,24 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "cSpell.words": [
+        "Bạch",
+        "bytebuddy",
+        "Clouldinary",
+        "Djdk",
+        "existinguser",
+        "fasterxml",
+        "javaagent",
+        "javac",
+        "mapstruct",
+        "newuser",
+        "nimbusds",
+        "Phường",
+        "rawtypes",
+        "stdlib",
+        "testuser",
+        "VNPAY",
+        "wrongpassword",
+        "Xshare"
+    ]
+}

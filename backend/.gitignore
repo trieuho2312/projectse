@@ -1,0 +1,69 @@
+# Maven build output
+target/
+
+# JaCoCo coverage reports (covered by target/ above, but kept for clarity)
+*.exec
+
+# TestContainers
+.testcontainers/
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# IDE - VS Code
+.vscode/
+
+# OS - Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OS - macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# OS - Linux
+*~
+
+# Log files
+*.log
+logs/
+
+# Application properties with secrets (uncomment if you have local config files)
+# application-local.properties
+# application-dev.properties
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+*.cache
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Compiled class files (already covered by target/, but kept for clarity)
+*.class
+
+# H2 Database files (if using H2)
+*.mv.db
+*.trace.db
